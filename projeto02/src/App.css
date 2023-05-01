@@ -1,0 +1,89 @@
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Trebuchet MS';
+  background: #5B8FB9;
+  min-height: 100vh;
+}
+
+
+.menuEsquerda {
+  display: flex;
+  flex-direction:row;
+  width: 100%;
+  background-color: #5B8FB9;
+  padding: 0px;
+  margin-left: 20px;
+  text-align: center;
+  
+}
+
+
+.MenuL {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+.Nomedasess{
+  align-items: center;
+  width: 100%;
+  background-color: #5B8FB9;
+  padding: 0px;
+  margin-left: 20px;
+
+}
+
+
+
+
+
+.estante {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  background: #5B8FB9;
+  padding: 20px;
+  margin-left: 0px;
+
+}
+
+.Nomedasess h1 {
+  margin: 0;
+  font-size: 25px;
+  color: #ffffff;
+  text-align: center;
+  font-family:'Trebuchet MS';
+}
+
+
+#ultimasAva {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+  background-color: #301E67;
+}
+
+.FilmesAva {
+  margin: 10px;
+}
+
+.FilmesAva h3 {
+  margin-top: 0;
+}
+
+.FilmesAva p {
+  margin-bottom: 0;
+}

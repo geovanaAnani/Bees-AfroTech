@@ -1,0 +1,36 @@
+#princioal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px;
+    background: #B6EADA;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.2);
+  }
+  
+  #capa-filme {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  #imagem img {
+    width: 100px;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  #avaliacao h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+    color:aliceblue;
+    font-family:'Trebuchet MS';
+  }
+  
+  #avaliacao p {
+    font-size: 16px;
+    margin: 0;
+    font-family:'Trebuchet MS';
+    text-align: center;
+  }
+  
