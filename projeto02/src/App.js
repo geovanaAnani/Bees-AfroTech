@@ -39,6 +39,7 @@ function App() {
         <MenuL icone={<BsFillChatLeftQuoteFill  />} href="#ultimasAva" bname="Criticas" />
 
       </div>
+      
       <div className='Nomedasess'>
         <h1>Minha Estante de Filmes</h1>
         <Line/>

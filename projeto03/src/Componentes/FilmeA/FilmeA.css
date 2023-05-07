@@ -1,0 +1,54 @@
+
+.minhaEstante {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 300px;
+  width: 200px;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.minhaEstante h3 {
+  font-size: 18px;
+  margin: 0;
+  text-align: center;
+  color: #5e5e5e;
+  font-family: 'Trebuchet MS';
+}
+
+.minhaEstante img {
+  height: 240px;
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.minhaEstante span {
+  font-size: 24px;
+  color: #ff9800;
+  display: inline-block;
+}
+
+.minhaEstante .icones {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.minhaEstante .icones span {
+  margin-right: 5px;
+}
+
+.estante {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+  
